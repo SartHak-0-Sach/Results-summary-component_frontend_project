@@ -3,45 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Results summary component</title>
 </head>
 <body>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
+  <main>
+    <article class="results-summary-component">
+      <header class="result-section" aria-labelledby="result">
+        <h1 id="result">Your Result</h1>
+        <div>
+          76
+          <span>of 100</span>
+        </div>
+        <h2>Great</h2>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </header>
+      
+      <section class="summary-section" aria-labelledby="summary">
+        <h3 id="summary">Summary</h3>
+        <ul id="summaryList" class="summary-list">
+          
+        </ul>
+        
+        <button type="button" class="continue-btn">Continue</button>
+      </section>
+    </article>
+  </main>
   
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer class="attribution">
+    Challenge by <a rel="noopener noreferrer" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a rel="noopener noreferrer" href="https://github.com/SartHak-0-Sach">Sarthak Sachdev</a>.
+  </footer>
+  <script type="text/javascript" src="./script.js" defer></script>
 </body>
 </html>
